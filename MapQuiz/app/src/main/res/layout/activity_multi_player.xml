@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultiPlayerActivity"
+    android:layout_centerHorizontal="true"
+    android:background="#D1DBE2">
+
+    <TextView
+        android:id="@+id/text_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:clickable="false"
+        android:text="Grupla Oyna"
+        android:textColor="#23435E"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="15dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/ic_left_arrow" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignTop="@+id/btnBack"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:backgroundTint="#23435E"
+            android:textColor="#D5E2EA"
+            android:text="@string/str_create_group"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/btnJoin"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:backgroundTint="#23435E"
+            android:textColor="#D5E2EA"
+            android:text="@string/str_join_group"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

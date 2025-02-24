@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "791892107391",
+    "project_id": "mapquiz-b1b3a",
+    "storage_bucket": "mapquiz-b1b3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791892107391:android:ea7d135dbedcf311111f4a",
+        "android_client_info": {
+          "package_name": "com.example.mapquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791892107391-ioe8in126a5l4k0nhgbgluv9nctaho01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mapquiz",
+            "certificate_hash": "f0973f7ff8594c676b007ab19ec76434c3e68c43"
+          }
+        },
+        {
+          "client_id": "791892107391-7jndq19bcf5q3pdqge0s1qm1e7dul5u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3qBci8Oz8R99aaXPt0v7sAmWMZpw8BOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791892107391-7jndq19bcf5q3pdqge0s1qm1e7dul5u2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

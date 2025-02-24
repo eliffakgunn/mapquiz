@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grup Kodunu Girin"
+        android:textSize="21dp"
+        android:textColor="#23435E"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/dialogTitle"/>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/str_groupID"
+        android:textSize="18dp"
+        android:textColor="#23435E"
+        android:layout_gravity="center"
+        android:id="@+id/dialogText"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#23435E"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:text="İptal"
+            android:textStyle="bold"
+            android:id="@+id/dialogCancel"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#23435E"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Tamam"
+            android:textStyle="bold"
+            android:id="@+id/dialogConfirm"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

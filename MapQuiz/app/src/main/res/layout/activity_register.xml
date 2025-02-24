@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="#D1DBE2">
+
+    <ImageButton
+        android:id="@+id/btn_close"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_close"
+        android:layout_marginTop="25dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:layout_alignTop="@+id/button_left"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Kaydol"
+            android:textSize="35dp"
+            android:layout_gravity="center"
+            android:textColor="#23435E" />
+
+        <EditText
+            android:id="@+id/e_txt_username"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#23435E"
+            android:hint="@string/str_username"
+            android:layout_marginTop="50dp"
+            />
+
+        <EditText
+            android:id="@+id/e_txt_mail"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#23435E"
+            android:hint="@string/str_mail"
+            />
+
+        <EditText
+            android:id="@+id/e_txt_pass"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#23435E"
+            android:hint="@string/str_password"
+            android:inputType="textPassword"
+            android:drawableRight="@drawable/ic_password"
+            />
+
+        <Button
+            android:id="@+id/btn_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#23435E"
+            android:textColor="#D5E2EA"
+            android:text="@string/str_register"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_go_login_page"
+            android:textColor="#23435E"
+            android:layout_marginTop="5dp"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

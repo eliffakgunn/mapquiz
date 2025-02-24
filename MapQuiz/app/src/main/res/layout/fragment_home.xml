@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center"
+    android:background="#D1DBE2">
+
+    <ImageButton
+        android:id="@+id/button_left"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/ic_left_arrow"
+        android:layout_marginTop="25dp"/>
+
+    <ImageView
+        android:id="@+id/img_quiz"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/ic_quiz3"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@+id/button_left"
+        android:layout_marginLeft="100dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:layout_alignTop="@+id/img_quiz"
+        android:layout_marginTop="210dp">
+
+        <TextView
+            android:id="@+id/txt_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_above="@+id/layout2">
+
+            <ImageView
+                android:id="@+id/img_coin"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_coin"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/txt_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignLeft="@id/img_coin"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/btn_play"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:backgroundTint="#23435E"
+                android:textColor="#D5E2EA"
+                android:text="@string/str_play"
+                android:textAllCaps="false"
+                android:textSize="22dp"
+                android:layout_marginTop="50dp"
+                />
+
+            <Button
+                android:id="@+id/btn_multiplayer"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:backgroundTint="#23435E"
+                android:text="Grupla Oyna"
+                android:textAllCaps="false"
+                android:textColor="#D5E2EA"
+                android:textSize="22dp"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

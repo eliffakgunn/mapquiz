@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WaitingRoomActivity"
+    android:background="#D5E2EA">
+
+
+    <ImageButton
+        android:id="@+id/ic_leftButton"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/ic_left_arrow" />
+
+    <ImageView
+        android:id="@+id/img_group"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_group"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#23435E"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="GRUP KODU"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:layout_alignTop="@+id/img_group"
+        />
+
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#23435E"
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignTop="@+id/txt_group"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txt_id"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btnInvite"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#23435E"
+            android:textColor="#D5E2EA"
+            android:textAllCaps="false"
+            android:text="Davet Et"
+            android:textSize="22dp"
+            />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#23435E"
+            android:textColor="#D5E2EA"
+            android:textAllCaps="false"
+            android:text="Başla"
+            android:textSize="22dp"
+            android:layout_marginLeft="40dp"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txt_players"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oyuncular"
+        android:textColor="#23435E"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:layout_alignTop="@+id/layout"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/txt_players"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        app:cardCornerRadius="10dp"/>
+
+
+</RelativeLayout>
