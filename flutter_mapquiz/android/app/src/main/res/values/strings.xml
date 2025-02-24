@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MapQuiz</string>
+    <string name="str_globe">Dünya Küresi</string>
+    <string name="str_quiz">Quiz</string>
+    <string name="str_categories">Kategoriler</string>
+    <string name="str_country">Ülke</string>
+    <string name="str_capital">Başkent</string>
+    <string name="str_flag">Bayrak</string>
+    <string name="str_mixed">Genel Kültür</string>
+    <string name="str_easy">Kolay</string>
+    <string name="str_medium">Orta</string>
+    <string name="str_hard">Zor</string>
+    <string name="str_kesfet">Keşfet</string>
+    <string name="str_multiplayer">Grup Oluştur</string>
+    <string name="str_play">Oyna</string>
+    <string name="str_username">Lütfen kullanıcı adınızı giriniz</string>
+    <string name="str_mail">Lütfen e-posta adresinizi giriniz</string>
+    <string name="str_password">Lütfen şifrenizi giriniz</string>
+    <string name="str_register">Kaydol</string>
+    <string name="str_go_login_page">Hesabınız var mı? Giriş yapın.</string>
+    <string name="str_go_registration">Hesabınız yok mu? Kaydolun.</string>
+    <string name="str_save">Kaydet</string>
+    <string name="str_logout">Çıkış Yap</string>
+    <string name="str_login">Giriş Yap</string>
+    <string name="str_invite_dialog_title">Arkadaşlarını Yarışmaya Davet Et</string>
+    <string name="str_confirm">Onayla</string>
+    <string name="str_exit">Çıkış</string>
+    <string name="str_next">Sonraki</string>
+    <string name="str_create_group">Grup Oluştur</string>
+    <string name="str_join_group">Gruba Katıl</string>
+    <string name="str_groupID">Grup Kodu</string>
+</resources>
